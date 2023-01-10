@@ -7,7 +7,7 @@ This is a python project using OpenCV methods to project an image into a specifi
 2. Use FAST detector to detect corners in the two images and SIFT detector to detect spots.
 3. Use the SIFT object to access ```detectAndCompute()``` function that will return the descriptors of the two images.
 4. Use Brute-Force Matcher or Flann Matcher to match the two descriptors and calculate matches between the two images.
-5. Find the homography matrix that transforms ```imgs[0]``` so that it becomes exactly as it appears in ```imgs[1]```, using ```cv2.fingHomography()``` function.
+5. Find the homography matrix that transforms ```imgs[0]``` so that it becomes exactly as it appears in ```imgs[1]```, using ```cv2.findHomography()``` function.
 6. Pass this matrix as a parameter in ```cv2.perspectiveTransform()``` function that will return us the corners in which ```imgs[0]``` is projected inside ```imgs[1]```.
 7. Load the new image to be projected into ```imgs[1]```, in the place where ```ímgs[0]``` appears. This new image is ```proj_img```.
 8. Define the corners of ```proj_img``` and their correspondence inside ```imgs[1]```. This is basically the information we obtained in step number 6.
