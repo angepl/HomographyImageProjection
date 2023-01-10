@@ -33,3 +33,13 @@ masked_image = cv2.bitwise_and(imgs[1], mask)
 Now ```masked_image``` holds an image just like ```imgs[1]``` but with a black frame in the place where ```proj_img``` needs to be projected.
 
 12. Add images ```proj_img``` and ```masked_image```.
+
+
+## Results
+```imgs[1]``` at the beginning of the project:
+![alt text](images/bus.png)
+```imgs[1]``` at the end of the project:
+
+
+## Information
+You can find information about all the OpenCV methods that are used in the project **[here](https://docs.opencv.org/4.x/)**.
