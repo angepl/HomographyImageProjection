@@ -14,7 +14,7 @@ This is a python project using OpenCV methods to project an image into a specifi
 9. Pass these corners as parameters into function 'cv2.getPerspectiveTransform()' that returns a matrix that transforms 'proj_img' into the wanted one.
 10. Pass this matrix as a parameter into 'cv2.warpPerspective()' function that will transform the image.
 11. Create a black frame in 'imgs[1]', where 'proj_img' needs to be projected. This is accomplished by the following code:
-`#transform proj_img
+    `#transform proj_img
 proj_img = cv2.warpPerspective(proj_img,m,(cols,rows)) 
 
 black = np.zeros([1490, 1070, 3], np.uint8) #create a black image with the size of imgs[0]
