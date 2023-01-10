@@ -1,7 +1,7 @@
 # HomographyImageProjection
 
 ## Description
-This is a python project using OpenCV methods to project an image into a specific frame of another image, through perspective transformation using the homography matrix. More specifically, we have two images from which the one appears into the other in a different perspecrive. The goal of this project is to detect the common points of the two images and calculate the corners in which the first image appears into the second. As far as this information is under our possession, we will be able to project a new image, with the same dimensions as the previous one, into the second image. The steps of this process are listed below:
+This is a python project using OpenCV methods to project an image into a specific frame of another image, through perspective transformation using the homography matrix. More specifically, we have two images from which the one appears into the other in a different perspective. The goal of this project is to detect the common points of the two images and calculate the corners in which the first image appears into the second. As far as this information is under our possession, we will be able to project a new image, with the same dimensions as the previous one, into the second image. The steps of this process are listed below:
 
 1. Read the 2 images and store them in a list named ```imgs```. ```imgs[1]``` contains ```imgs[0]```.
 2. Use FAST detector to detect corners in the two images and SIFT detector to detect spots.
