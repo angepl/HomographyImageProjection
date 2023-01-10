@@ -35,6 +35,12 @@ Now ```masked_image``` holds an image just like ```imgs[1]``` but with a black f
 12. Add images ```proj_img``` and ```masked_image```.
 
 
+There is supplementary code troughout the project in order to count the calculation times required for:
+- keypoint detection using FAST and SIFT detectors.
+- descriptor calculation using SIFT and ORB.
+- calculation od the matches between the two images using Brute-Force Matcher and Flann Matcher.
+The results of this code are being presented in the last part of the project.
+
 ## Results
 ```imgs[1]``` at the beginning of the project:
 ![alt text](images/bus.png)
@@ -43,6 +49,8 @@ Now ```masked_image``` holds an image just like ```imgs[1]``` but with a black f
 ```imgs[1]``` at the end of the project:
 ![alt_text](images/overlay.png)
 
+
+From the calculation times we can notice that Brute-Force Matcher requires much more time than Flann Matcher in order to find the matches between the two images. This result was expected, as it uses a brute-force strategy, comparing each and every one of the descriptors of the first image with all the descriptors of the second image.
 
 ## Information
 You can find information about all the OpenCV methods that are used in the project **[here](https://docs.opencv.org/4.x/)**.
