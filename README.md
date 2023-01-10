@@ -39,7 +39,7 @@ Now ```masked_image``` holds an image just like ```imgs[1]``` but with a black f
 ```imgs[1]``` at the beginning of the project:
 ![alt text](images/bus.png)
 ```imgs[1]``` at the end of the project:
-![alt text](images/overlay.png)
+![j](images/overlay.png)
 
 
 ## Information
