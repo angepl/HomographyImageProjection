@@ -43,5 +43,5 @@ The results of this code are being presented in the last part of the project.
 
 
 ## Information
-You can find information about all the OpenCV methods that are used in the project **[here](https://docs.opencv.org/4.x/)**.
-Information about how feature and descriptor detectors work and how Brute-Force and Flann Matcher find the mathces can be found **[here](https://medium.com/data-breach/introduction-to-feature-detection-and-matching-65e27179885d)**.
+- You can find information about all the OpenCV methods that are used in the project **[here](https://docs.opencv.org/4.x/)**.
+- Information about how feature detectors, feature descriptors and mathcers work can be found **[here](https://medium.com/data-breach/introduction-to-feature-detection-and-matching-65e27179885d)**.
