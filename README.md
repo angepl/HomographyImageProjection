@@ -35,7 +35,7 @@ Now ```masked_image``` holds an image just like ```imgs[1]``` but with a black f
 12. Add images ```proj_img``` and ```masked_image```.
 
 
-There is supplementary code troughout the project in order to count the calculation times required for:
+There is supplementary code throughout the project in order to count the calculation times required for:
 - keypoint detection using FAST and SIFT detectors.
 - descriptor calculation using SIFT and ORB.
 - calculation of the matches between the two images using Brute-Force Matcher and Flann Matcher.
